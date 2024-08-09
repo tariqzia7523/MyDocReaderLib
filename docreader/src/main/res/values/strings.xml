@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_wait">Please wait</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_file_name">File</string>
+    <string name="error_occurred">Error occurred!</string>
+    <string name="dialog_folder_name">Folder</string>
+    <string name="dialog_ascending">Ascending</string>
+    <string name="dialog_descending">Decedent</string>
+    <string name="note">Note</string>
+    <string name="empty">Empty</string>
+    <string name="search">Search</string>
+    <string name="no">NO</string>
+</resources>
