@@ -7,6 +7,9 @@ maven { url 'https://jitpack.io' }
 
 then following line in app gradle
 
+[![](https://jitpack.io/v/tariqzia7523/MyDocReaderLib.svg)](https://jitpack.io/#tariqzia7523/MyDocReaderLib)
+
+
 implementation 'com.github.tariqzia7523:MyDocReaderLib:Tag'
 
 ## Usage
