@@ -45,7 +45,7 @@ class FileOpenerClass(var context : Activity,
         var fileUri : Uri,
         var mainScreenFrameLayout : FrameLayout,
         var fileType : String?) : IMainFrame {
-    // updated on 06 Nov 2025
+    // updated on   06 Nov 2025  // new
 
     var fileName: String? = null
     var isDispose = false
