@@ -244,24 +244,29 @@ public class Workbook
      */
     public synchronized int getColor(int index, boolean line)
     {
-    	Integer t = colors.get(index);
-        if(t == null && (index >= 0 && index <= 7))
-        {
-            t = colors.get(8);
-        }
-         
-        if (t == null)
-        {
-            if (line)
+        try{
+            Integer t = colors.get(index);
+            if(t == null && (index >= 0 && index <= 7))
             {
-                return Color.BLACK;
+                t = colors.get(8);
             }
-            else
+
+            if (t == null)
             {
-                return Color.WHITE;
+                if (line)
+                {
+                    return Color.BLACK;
+                }
+                else
+                {
+                    return Color.WHITE;
+                }
             }
+            return t;
+        }catch (Exception e){
+            e.printStackTrace();
+            return Color.GRAY;
         }
-        return t;
     }
     
     /**
